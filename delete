@@ -1,5 +1,4 @@
 
-
 require "./calculator"
 
 describe "add" do
