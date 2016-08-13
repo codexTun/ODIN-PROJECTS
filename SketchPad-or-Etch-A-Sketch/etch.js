@@ -24,7 +24,7 @@ $('li').css({
 }).mouseenter(function() {
     $(this).css ('background-color','red');
   });
-$('li').mouseleave(function() {
+$('li').mouseleave(function() { 
     $(this).css ('background-color','white');
   });
 
