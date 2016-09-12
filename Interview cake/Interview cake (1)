@@ -1,0 +1,12 @@
+def my_function(arg)
+    h = {}
+    for i in 1..86400
+        test_cases = 86400.times.map do rand(400..600) end 
+        test_cases.each do |a| h[a] = i end
+        return h
+    end 
+   	buy = h.min
+    h.each do |key, value| 
+       for i in 1..86400
+           if h[i] == buy && h
+        
