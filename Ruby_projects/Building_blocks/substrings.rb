@@ -1,6 +1,6 @@
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 def substrings(string, dictionary)
-	sub_string = string.split(" ")
+	sub_string = string.downcase.split(/[^'\w]+/)
 	match = {}
 	sub_string.each do |x|  
 		if dictionary.include?(x)
@@ -9,6 +9,5 @@ def substrings(string, dictionary)
 	end 
 match
 end 
-
-substrings("below me horn low horn",dictionary)
+substrings("Howdy, partner. How's it going partner?",dictionary)
 
