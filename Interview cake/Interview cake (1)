@@ -1,12 +1,19 @@
+
 def my_function(arg)
+  prices = arg.sort
     h = {}
-    for i in 1..86400
-        test_cases = 86400.times.map do rand(400..600) end 
-        test_cases.each do |a| h[a] = i end
-        return h
+    pre_sale = []
+    for i in 0...arg.length
+      h[i] = prices[i]
     end 
-   	buy = h.min
-    h.each do |key, value| 
-       for i in 1..86400
-           if h[i] == buy && h
+  buy = h.min
+  sale = h.max
+  max_profit = sale[1] - buy[1]
+  return max_profit 
+    end 
+  
+my_function([500, 800, 600, 400, 450])
+
+
+
         
