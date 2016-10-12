@@ -1,3 +1,6 @@
+
+#!/usr/bin/ruby
+
 def stock_picker (prices)
     temp_arr = []
     soln = []
