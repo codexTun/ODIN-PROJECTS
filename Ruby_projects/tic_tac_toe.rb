@@ -5,6 +5,7 @@
 #You can only move your mark from the board after you have placed your assigned 3 max marks on the board
 # will add more features like avoiding replacing 2 with 1 or vice versa. 
 #This is a working code. Will refactor for elegance with time.
+# 5 by 5 board?
 class TicTacToe
 	attr_accessor :board
 	def initialize()
