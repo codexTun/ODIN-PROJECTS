@@ -118,7 +118,7 @@ class Game
 		
 		
 		complete_word_arr = @complete_word_str.split("")
-		puts @complete_word_str
+		
 		
 		
 
